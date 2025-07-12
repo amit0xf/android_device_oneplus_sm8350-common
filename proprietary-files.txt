@@ -230,6 +230,7 @@ vendor/lib/vendor.qti.diaghal@1.0.so;MODULE_SUFFIX=_vendor
 vendor/lib64/vendor.qti.diaghal@1.0.so;MODULE_SUFFIX=_vendor
 
 # Display (Features)
+odm/etc/init/hw/init.oplus.display.rc
 vendor/bin/feature_enabler_client
 vendor/etc/init/feature_enabler_client.rc
 vendor/etc/OnePlus_QC_LTM_Commercial_SM8350_2021_01_19.pfm
@@ -864,6 +865,7 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
 
 # Sensors
 odm/bin/oplus_sensor_fb
+odm/etc/init/init.oplus.sensor.rc
 odm/lib64/liboplus_service.so
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
 vendor/bin/init.qcom.sensors.sh
